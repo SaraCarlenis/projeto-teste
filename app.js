@@ -6,8 +6,8 @@ let nome = "Sara";
 let linguagemPref = prompt("Qual é a linguagem de programação que você mais gosta? ");
     console.log(linguagemPref);
 
-let valor1 = 5;
-let valor2 = 7;
+let valor1 = 10;
+let valor2 = 2;
 let resultado = valor1 + valor2;
     console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}.`);
 
@@ -59,6 +59,8 @@ let numeroSecreto1 = parseInt(Math.random()* 1000 + 1);
 
 alert(`${nome}, a linguagem que você mais gosta é ${linguagemPref} e você tem ${idade} anos`);
 alert(`${nome}, a soma de ${valor1} e ${valor2} é ${resultado} sua note foi de ${nota}`)
+
+
 
 
 
