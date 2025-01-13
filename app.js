@@ -1,7 +1,10 @@
 console.log ("Boas-vindas!");
-let nome = "Sara";
+let nome = prompt("Qual é seu nome ");
     console.log(`Olá, ${nome}`);
-    alert(`Olá, ${nome}`);
+
+let sobrenome = prompt("Qual é seu sobrenome? ")
+    console.log(`${nome} ${sobrenome}`);
+    alert(`Prazer te conhecer ${nome} ${sobrenome }, vamos fazer algumas perguntas simples.`)
 
 let linguagemPref = prompt("Qual é a linguagem de programação que você mais gosta? ");
     console.log(linguagemPref);
@@ -58,12 +61,4 @@ let numeroSecreto1 = parseInt(Math.random()* 1000 + 1);
 //console.log(`${nome}, a soma de ${valor1} e ${valor2} é ${resultado} sua note foi de ${nota}`)
 
 alert(`${nome}, a linguagem que você mais gosta é ${linguagemPref} e você tem ${idade} anos`);
-alert(`${nome}, a soma de ${valor1} e ${valor2} é ${resultado} sua note foi de ${nota}`)
-
-
-
-
-
-
-
-
+alert(`${nome}, a soma de ${valor1} e ${valor2} é ${resultado} sua note foi de ${nota}`);
